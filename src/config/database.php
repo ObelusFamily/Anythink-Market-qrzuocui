@@ -92,6 +92,14 @@ return [
             // 'encrypt' => env('DB_ENCRYPT', 'yes'),
             // 'trust_server_certificate' => env('DB_TRUST_SERVER_CERTIFICATE', 'false'),
         ],
+        'mongodb' => [
+            'driver'   => 'mongodb',
+            'host'     => env('DB_HOST', '34.192.0.0'),
+            'port'     => env('DB_PORT', 16),
+            'database' => env('moviesquest'),
+            'username' => env('prtyush0903'),
+            'password' => env('rlpomlY7bpkLJPFq'),
+        ],
 
     ],
 
