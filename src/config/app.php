@@ -168,7 +168,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Jenssegers\Mongodb\MongodbServiceProvider::class
+        Jenssegers\Mongodb\MongodbServiceProvider::class,
     ])->toArray(),
 
     /*
@@ -184,6 +184,7 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
+        'MongoDB' => Jenssegers\Mongodb\MongodbServiceProvider::class,
     ])->toArray(),
 
 ];
